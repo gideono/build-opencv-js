@@ -21,6 +21,6 @@ RUN git clone https://github.com/emscripten-core/emsdk.git \
     && cd ../
 
 RUN git clone https://github.com/opencv/opencv.git \
-    && python ./opencv/platforms/js/build_js.py build_js --emscripten_dir=./emsdk \
+    && python ./opencv/platforms/js/build_js.py build_js \
     && python ./opencv/platforms/js/build_js.py build_js --build_test
 
