@@ -1,7 +1,7 @@
 # build-opencv-js
 
 Generate opencv.js with help of docker. No other dependence is need.
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - Official guide
+* [Opencv](https://docs.opencv.org/3.4/d4/da1/tutorial_js_setup.html) - Official guide
 
 ## Getting Started
 
